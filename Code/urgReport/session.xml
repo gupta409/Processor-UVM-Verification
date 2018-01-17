@@ -1,0 +1,23 @@
+<session version="1.1" release="H-2013.06-SP1" timestp="2017-12-06 23:45:44 GMT">
+  <hvp>
+    <datadef>
+      <metdef name="Line" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="Cond" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="FSM" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="Group" type="percent" aggregator="average" builtin="1" />
+    </datadef>
+  </hvp>
+  <old_coverage>
+  <scope type="top" name="top">
+    <metric name="Line" value="111/121" />
+    <metric name="Group" value="100%" />
+  </scope>
+  <scope type="instance" name="top">
+  </scope>
+  <scope type="group" name="top">
+    <scope type="group" name="processor_testbench_pkg::processor_subscriber::cover_processor">
+      <metric name="Group" value="100%" />
+    </scope>
+  </scope>
+  </old_coverage>
+</session>
